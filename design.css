@@ -1,0 +1,157 @@
+h1{
+color: #055C8E;
+ font-size: 40px;
+}
+body{
+/*background-image:url("SFA_IMG/SFA_BG_2");*/
+}
+.menu_bar{
+	color:#055C8E;
+	text-align:center;
+	background-color:rgba(194,235,95,0.8);
+	margin-top:50px;
+	padding-top:15px;
+	height:185px;
+}
+p{
+	color:black;
+	font-size:15px;
+}
+
+.option_box {
+	margin-top:10px;
+	color:#ffffff;
+}
+
+.option_box a{
+	margin:10px;
+	color:black;
+	
+}
+
+.option_box a:hover{
+	margin:10px;
+	color:white;
+	background-color:#055c8e;
+}
+
+
+.font_style{
+	margin-top:10px;
+	color:#black;
+	text-align:center;
+}
+
+.datas{
+	text-align:center;
+	color:#black;
+}
+
+
+.select_custom{
+	background-color:rgba(194,235,95,0.8);
+	color:black;
+	
+	width: 15%;
+    padding: 8px 20px;
+    margin: 8px 0px;   
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+	
+}
+input[type=text] {
+    width: 15%;
+	background-color:rgba(194,235,95,0.8);
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    width: 15%;
+
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+	background-color:#055c8e;
+    width: 10%;
+	font-size:15px;
+	color:white;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.logo{
+	margin:15px;
+		
+	background-color:rgba(194,235,95,0.8);
+}
+
+.logo h1{
+	padding-left:50px;
+}
+
+a{
+	background-color:#94d1fc;
+	padding-left:15px;
+	color: black;
+	font-size:17px;
+	text-decoration: none;
+}
+.option_box a{
+	background-color:#94d1fc;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #94d1fc;
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav_right a {
+	
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #055c8e;
+    color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: red;
+}
